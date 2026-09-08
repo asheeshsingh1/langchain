@@ -5,9 +5,7 @@ import numpy as np
 
 load_dotenv()
 
-model = HuggingFaceEndpointEmbeddings(
-    repo_id="google/embeddinggemma-300m"
-)
+model = HuggingFaceEndpointEmbeddings(repo_id="google/embeddinggemma-300m")
 
 docs = [
     "Asheesh loves to eat food.",
@@ -21,9 +19,9 @@ source = model.embed_documents(docs)
 query = model.embed_query(question)
 
 scores = cosine_similarity([query], source)[0]
-index, score = sorted(list(enumerate(scores)),key=lambda x:x[1])[-1]
+index, score = sorted(list(enumerate(scores)), key=lambda x: x[1])[-1]
 
 
 print(question)
 print(docs[index])
-print("Similarity: ",float(score * 100))
+print("Similarity: ", float(score * 100))

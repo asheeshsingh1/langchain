@@ -5,8 +5,7 @@ import os
 load_dotenv()
 
 model = HuggingFaceEndpoint(
-    repo_id="meta-llama/Llama-3.1-8B-Instruct",
-    task="text-generation"
+    repo_id="meta-llama/Llama-3.1-8B-Instruct", task="text-generation"
 )
 
 model = ChatHuggingFace(llm=model)
