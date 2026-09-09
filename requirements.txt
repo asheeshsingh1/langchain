@@ -36,3 +36,8 @@ streamlit
 
 # Observability
 langsmith
+
+# Formatt and Lint
+pre-commit
+black
+ruff
