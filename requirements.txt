@@ -33,6 +33,7 @@ scikit-learn
 
 # UI
 streamlit
+grandalf
 
 # Observability
 langsmith
