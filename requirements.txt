@@ -4,6 +4,8 @@ langchain-core
 langchain-community
 langchain-docling
 langchain-unstructured
+langchain-ollama
+langchain-experimental
 
 # OpenAI
 langchain-openai
@@ -37,6 +39,7 @@ scikit-learn
 # UI
 streamlit
 grandalf
+fonttools
 
 # Observability
 langsmith
