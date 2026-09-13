@@ -1,6 +1,5 @@
 from langchain_classic.text_splitter import RecursiveCharacterTextSplitter, Language
 
-
 splitter = RecursiveCharacterTextSplitter.from_language(
     language=Language.PYTHON, chunk_size=300, chunk_overlap=0
 )
