@@ -6,6 +6,7 @@ langchain-docling
 langchain-unstructured
 langchain-ollama
 langchain-experimental
+langchain-chroma
 
 # OpenAI
 langchain-openai
@@ -48,3 +49,7 @@ langsmith
 pre-commit
 black
 ruff
+
+pypdf
+tiktoken
+chromadb
