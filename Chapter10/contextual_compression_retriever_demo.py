@@ -1,13 +1,13 @@
-from langchain_community.vectorstores import FAISS
-from langchain_google_genai import ChatGoogleGenerativeAI, GoogleGenerativeAIEmbeddings
+from dotenv import load_dotenv
 from langchain_classic.retrievers.contextual_compression import (
     ContextualCompressionRetriever,
 )
 from langchain_classic.retrievers.document_compressors import LLMChainExtractor
+from langchain_community.vectorstores import FAISS
 from langchain_core.documents import Document
-from dotenv import load_dotenv
-from langfuse.langchain import CallbackHandler
+from langchain_google_genai import ChatGoogleGenerativeAI, GoogleGenerativeAIEmbeddings
 from langfuse import get_client
+from langfuse.langchain import CallbackHandler
 
 langfuse = get_client()
 

@@ -1,8 +1,8 @@
+from dotenv import load_dotenv
+from langchain_classic.retrievers import MultiQueryRetriever
 from langchain_community.vectorstores import FAISS
 from langchain_core.documents import Document
 from langchain_google_genai import ChatGoogleGenerativeAI, GoogleGenerativeAIEmbeddings
-from langchain_classic.retrievers import MultiQueryRetriever
-from dotenv import load_dotenv
 
 load_dotenv()
 

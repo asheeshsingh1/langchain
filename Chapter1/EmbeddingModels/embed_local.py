@@ -1,5 +1,5 @@
-from langchain_huggingface import HuggingFaceEmbeddings
 from dotenv import load_dotenv
+from langchain_huggingface import HuggingFaceEmbeddings
 from sklearn.metrics.pairwise import cosine_similarity
 
 load_dotenv()

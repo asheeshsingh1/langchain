@@ -1,4 +1,4 @@
-from langchain_classic.text_splitter import RecursiveCharacterTextSplitter, Language
+from langchain_classic.text_splitter import Language, RecursiveCharacterTextSplitter
 
 splitter = RecursiveCharacterTextSplitter.from_language(
     language=Language.MARKDOWN, chunk_size=200, chunk_overlap=0

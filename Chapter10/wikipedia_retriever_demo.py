@@ -1,8 +1,8 @@
+from dotenv import load_dotenv
 from langchain_community.retrievers import WikipediaRetriever
 from langchain_community.vectorstores import Chroma
-from langchain_google_genai import GoogleGenerativeAIEmbeddings
 from langchain_core.documents import Document
-from dotenv import load_dotenv
+from langchain_google_genai import GoogleGenerativeAIEmbeddings
 
 load_dotenv()
 

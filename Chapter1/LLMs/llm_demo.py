@@ -1,6 +1,7 @@
-from langchain_google_genai import GoogleGenerativeAI
-from dotenv import load_dotenv
 import os
+
+from dotenv import load_dotenv
+from langchain_google_genai import GoogleGenerativeAI
 
 load_dotenv()
 

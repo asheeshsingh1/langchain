@@ -1,7 +1,7 @@
+from dotenv import load_dotenv
+from langchain_google_genai import ChatGoogleGenerativeAI
 from langfuse import get_client
 from langfuse.langchain import CallbackHandler
-from langchain_google_genai import ChatGoogleGenerativeAI
-from dotenv import load_dotenv
 
 load_dotenv()
 
