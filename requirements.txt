@@ -7,6 +7,7 @@ langchain-unstructured
 langchain-ollama
 langchain-experimental
 langchain-chroma
+langchain-experimental
 
 # OpenAI
 langchain-openai
@@ -54,3 +55,4 @@ pypdf
 tiktoken
 chromadb
 langfuse
+duckduckgo-search
